@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Manisha Verma
+description: Assistant Professor
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Head
 giscus_comments: true
 ---
 
