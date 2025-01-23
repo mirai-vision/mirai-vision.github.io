@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Head, PhD Students, Masters Students, Undergraduate Students]
+display_categories: [Head, PhD, Master, Undergraduate]
 horizontal: false
 ---
 
