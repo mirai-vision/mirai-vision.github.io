@@ -6,7 +6,7 @@ subtitle: <a href='#'>IIT (ISM) Dhanbad</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: middle
-  image: prof_pic.jpg
+  image: 1.jpg
   image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
