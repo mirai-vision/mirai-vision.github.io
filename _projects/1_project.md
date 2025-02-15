@@ -2,9 +2,9 @@
 layout: page
 title: Sudhakar Kumawat
 description: Assistant Professor
-img: assets/img/12.jpg
+img: assets/img/sudhakar_pic.jpg
 importance: 1
-category: Head
+category: PI
 related_publications: true
 ---
 
