@@ -2,9 +2,9 @@
 layout: page
 title: Manisha Verma
 description: Assistant Professor
-img: assets/img/3.jpg
+img: assets/img/manisha_pic.jpg
 importance: 2
-category: Head
+category: PI
 giscus_comments: true
 ---
 
