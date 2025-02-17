@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>IIT (ISM) Dhanbad</a>. Address. Contacts. Motto. Etc.
+subtitle: Science Block. <a href='https://www.iitism.ac.in/'>IIT (ISM) Dhanbad</a>. Jharkhand. India
 
 profile:
   align: middle
