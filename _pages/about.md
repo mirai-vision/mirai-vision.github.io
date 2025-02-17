@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Science Block. <a href='https://www.iitism.ac.in/'>IIT (ISM) Dhanbad</a>. Jharkhand. India
+subtitle: 314 A. Science Block. <a href='https://www.iitism.ac.in/'>IIT (ISM) Dhanbad</a>. Jharkhand. India
 
 profile:
   align: middle
