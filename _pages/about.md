@@ -5,6 +5,7 @@ permalink: /
 profile:
   align: middle
   image: 1.jpg
+  video: pexels-engin-akyurt-6069112-960x540-30fps.mp4
   image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
