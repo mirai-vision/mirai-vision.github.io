@@ -25,10 +25,17 @@ body.fixed-top-nav {
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   max-width: $max-content-width;
+}
+
+.main-content {
+  flex: 1 0 auto;
 }
 
 // Profile
