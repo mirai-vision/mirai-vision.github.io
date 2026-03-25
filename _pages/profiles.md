@@ -14,6 +14,7 @@ _styles: |
     margin-top: 2.2rem;
     margin-bottom: 0;
     font-size: 1.1rem;
+    font-weight: 700;
   }
 
   .people-section {
@@ -53,7 +54,7 @@ _styles: |
 
   .people-card-name {
     font-size: 1.15rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.35;
     color: var(--global-theme-color);
   }
