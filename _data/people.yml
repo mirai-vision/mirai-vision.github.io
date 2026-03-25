@@ -10,12 +10,18 @@ directory_sections:
         image: people/manisha_pic.jpg
   - title: phd
     members:
-      - name: Research Member
-        role: Research Scholar
-        image: people/prof_pic.jpg
-      - name: Research Member
-        role: PhD Scholar
-        image: people/prof_pic_color.png
+      - name: Chumki Dey
+        role: PhD Student
+        image: people/chumki.jpg
+      - name: Srijita Khatua
+        role: PhD Student
+        image: people/female.jpg
+      - name: Suman
+        role: PhD Student
+        image: people/suman.jpg
+      - name: Biswajit Bera
+        role: PhD Student
+        image: people/biswajit.png
   - title: masters
     members:
       - name: Master Student
