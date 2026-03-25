@@ -36,7 +36,7 @@
         {% assign item_year = item.date | date: '%Y' %}
         {% if item_year != current_year %}
           {% assign current_year = item_year %}
-          <h2 class="news-year-heading">{{ current_year }}</h2>
+          <h2 class="bibliography news-year-heading">{{ current_year }}</h2>
           <div class="table-responsive">
             <table class="table table-sm table-borderless">
         {% endif %}
