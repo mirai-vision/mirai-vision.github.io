@@ -27,16 +27,18 @@ _styles: |
   }
 
   .people-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.5rem 1.1rem;
-    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem 2.2rem;
+    align-items: flex-start;
   }
 
   .people-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 180px;
   }
 
   .people-card figure {
@@ -65,7 +67,7 @@ _styles: |
 
   @media (min-width: 992px) {
     .people-grid {
-      grid-template-columns: repeat(5, minmax(0, 1fr));
+      justify-content: center;
     }
   }
 directory_sections:
