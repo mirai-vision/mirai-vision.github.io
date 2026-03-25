@@ -154,7 +154,8 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # homepage shows only the 5 latest items; `/news/` still shows the full archive
+  limit: 5
+  # homepage shows only the 5 latest items; `/news/` still shows the full archive
 
 latest_posts:
   enabled: false
