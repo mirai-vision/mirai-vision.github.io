@@ -5,12 +5,6 @@ layout: page
   <article>
     {% if page.directory_sections %}
       <div class="people-directory">
-        {% if page.alumni_link %}
-          <p class="people-alumni-link">
-            <a href="{{ page.alumni_link | relative_url }}">View alumni</a>
-          </p>
-        {% endif %}
-
         {% for section in page.directory_sections %}
           <section class="people-section">
             <h2 class="people-section-title">{{ section.title }}</h2>
@@ -36,6 +30,12 @@ layout: page
             </div>
           </section>
         {% endfor %}
+
+        {% if page.alumni_link %}
+          <p class="people-alumni-link">
+            <a href="{{ page.alumni_link | relative_url }}">View alumni</a>
+          </p>
+        {% endif %}
       </div>
     {% elsif page.profiles %}
       {% for profile in page.profiles %}
