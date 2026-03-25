@@ -3,9 +3,11 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.directory_sections %}
+    {% assign people_sections = page.directory_sections | default: site.data.people.directory_sections %}
+    {% assign people_alumni_link = page.alumni_link | default: site.data.people.alumni_link %}
+    {% if people_sections %}
       <div class="people-directory">
-        {% for section in page.directory_sections %}
+        {% for section in people_sections %}
           <section class="people-section">
             <h2 class="people-section-title">{{ section.title }}</h2>
 
@@ -31,9 +33,9 @@ layout: page
           </section>
         {% endfor %}
 
-        {% if page.alumni_link %}
+        {% if people_alumni_link %}
           <p class="people-alumni-link">
-            <a href="{{ page.alumni_link | relative_url }}">View alumni</a>
+            <a href="{{ people_alumni_link | relative_url }}">View alumni</a>
           </p>
         {% endif %}
       </div>
