@@ -12,8 +12,8 @@ _styles: |
   }
 
   .people-alumni-link {
-    margin-top: -0.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0;
     font-size: 1.1rem;
   }
 
@@ -30,7 +30,7 @@ _styles: |
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem 2.2rem;
+    gap: 2.3rem 2.8rem;
     align-items: flex-start;
   }
 
