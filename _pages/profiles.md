@@ -5,7 +5,6 @@ title: people
 description:
 nav: true
 nav_order: 2
-alumni_link: /people/alumni/
 _styles: |
   .people-directory {
     text-align: center;
@@ -70,29 +69,4 @@ _styles: |
       justify-content: center;
     }
   }
-directory_sections:
-  - title: faculty
-    members:
-      - name: Sudhakar Kumawat
-        role: Assistant Professor
-        image: sudhakar_pic.jpg
-      - name: Manisha Verma
-        role: Assistant Professor
-        image: manisha_pic.jpg
-  - title: phd
-    members:
-      - name: Research Member
-        role: Research Scholar
-        image: prof_pic.jpg
-      - name: Research Member
-        role: PhD Scholar
-        image: prof_pic_color.png
-  - title: masters
-    members:
-      - name: Master Student
-        role: Masters Student
-        image: prof_pic.jpg
-      - name: Master Student
-        role: Masters Student
-        image: prof_pic_color.png
 ---
