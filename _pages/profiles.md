@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: People
-description: members of the lab or group
+title: people
+description:
 nav: true
 nav_order: 2
 alumni_link: /people/alumni/
@@ -13,22 +13,23 @@ _styles: |
 
   .people-alumni-link {
     margin-top: -0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-size: 1.1rem;
   }
 
   .people-section {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 
   .people-section-title {
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
+    text-transform: lowercase;
   }
 
   .people-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    gap: 2.25rem 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 1.1rem;
     align-items: start;
   }
 
@@ -39,12 +40,12 @@ _styles: |
   }
 
   .people-card figure {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.7rem 0;
   }
 
   .people-card-image {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 50%;
   }
@@ -61,8 +62,14 @@ _styles: |
     color: var(--global-text-color-light);
     line-height: 1.4;
   }
+
+  @media (min-width: 992px) {
+    .people-grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
 directory_sections:
-  - title: Faculty
+  - title: faculty
     members:
       - name: Sudhakar Kumawat
         role: Assistant Professor
@@ -70,12 +77,20 @@ directory_sections:
       - name: Manisha Verma
         role: Assistant Professor
         image: manisha_pic.jpg
-  - title: Researchers
+  - title: phd
     members:
       - name: Research Member
         role: Research Scholar
         image: prof_pic.jpg
       - name: Research Member
         role: PhD Scholar
+        image: prof_pic_color.png
+  - title: masters
+    members:
+      - name: Master Student
+        role: Masters Student
+        image: prof_pic.jpg
+      - name: Master Student
+        role: Masters Student
         image: prof_pic_color.png
 ---
