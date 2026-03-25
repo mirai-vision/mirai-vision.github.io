@@ -14,7 +14,6 @@ _styles: |
     margin-top: 2.2rem;
     margin-bottom: 0;
     font-size: 1.1rem;
-    font-weight: 700;
   }
 
   .people-section {
