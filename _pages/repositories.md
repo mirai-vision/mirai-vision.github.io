@@ -5,28 +5,6 @@ title: repositories
 description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: false
 nav_order: 99
-*** Add File: C:\Users\suaka\OneDrive\Desktop\mirai-vision.github.io\_pages\funding.md
----
-layout: page
-permalink: /funding/
-title: funding
-description:
-nav: true
-nav_order: 4
----
-
-Funding information will appear here soon.
-*** Add File: C:\Users\suaka\OneDrive\Desktop\mirai-vision.github.io\_pages\resources.md
----
-layout: page
-permalink: /resources/
-title: resources
-description:
-nav: true
-nav_order: 5
----
-
-Resources will appear here soon.
 ---
 
 {% if site.data.repositories.github_users %}
