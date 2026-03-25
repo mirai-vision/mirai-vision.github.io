@@ -61,17 +61,17 @@ body.sticky-bottom-footer {
   min-height: 110px;
   border: 1px solid var(--global-divider-color);
   border-radius: 0.75rem;
-  background: rgba(255, 255, 255, 0.02);
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.1rem;
   color: var(--global-text-color-light);
   text-align: center;
 
   img {
     max-width: 100%;
-    max-height: 78px;
+    max-height: 84px;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -79,12 +79,10 @@ body.sticky-bottom-footer {
   }
 }
 
-html[data-theme="dark"] {
-  .funding-logo-item {
-    background: rgba(255, 255, 255, 0.96);
-    border-color: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
-  }
+html[data-theme="dark"] .funding-logo-item {
+  background: #ffffff;
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
 // TODO: redefine content layout.
