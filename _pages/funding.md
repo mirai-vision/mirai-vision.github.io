@@ -15,7 +15,7 @@ _styles: |
   }
 
   .funding-logo-item {
-    min-height: 140px;
+    height: 180px;
     border: 1px solid rgba(128, 128, 128, 0.22);
     border-radius: 1rem;
     background: #ffffff !important;
@@ -24,13 +24,13 @@ _styles: |
     justify-content: center;
     padding: 1.35rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
   }
 
   .funding-logo-item img {
-    max-width: 100%;
-    max-height: 96px;
+    max-width: 220px;
+    height: 96px;
     width: auto;
-    height: auto;
     object-fit: contain;
     display: block;
   }
