@@ -53,33 +53,33 @@ Our lab is generously supported by various organizations whose contributions ena
 <div class="funding-logos">
   <a class="funding-logo-link" href="https://www.anrfonline.in/" target="_blank" rel="noopener noreferrer">
     <div class="funding-logo-item">
-      <img src="{{ '/assets/img/funding-anrf.png' | relative_url }}" alt="ANRF logo">
+      <img src="{{ '/assets/img/funding/funding-anrf.png' | relative_url }}" alt="ANRF logo">
     </div>
   </a>
   <a class="funding-logo-link" href="https://www.iitism.ac.in/" target="_blank" rel="noopener noreferrer">
     <div class="funding-logo-item">
-      <img src="{{ '/assets/img/funding-iitism.png' | relative_url }}" alt="IIT ISM logo">
+      <img src="{{ '/assets/img/funding/funding-iitism.png' | relative_url }}" alt="IIT ISM logo">
     </div>
   </a>
   <a class="funding-logo-link" href="https://indiaai.gov.in/" target="_blank" rel="noopener noreferrer">
     <div class="funding-logo-item">
-      <img src="{{ '/assets/img/funding-indiaai.png' | relative_url }}" alt="IndiaAI logo">
+      <img src="{{ '/assets/img/funding/funding-indiaai.png' | relative_url }}" alt="IndiaAI logo">
     </div>
   </a>
   <a class="funding-logo-link" href="https://texmin.in/" target="_blank" rel="noopener noreferrer">
     <div class="funding-logo-item">
-      <img src="{{ '/assets/img/funding-texmin.jpg' | relative_url }}" alt="TexMin logo">
+      <img src="{{ '/assets/img/funding/funding-texmin.jpg' | relative_url }}" alt="TexMin logo">
     </div>
   </a>
 </div>
 
 <!--
 Put your logo files in:
-assets/img/
+assets/img/funding/
 
 Add more logos by duplicating a block above with image markup like:
 
 <div class="funding-logo-item">
-  <img src="{{ '/assets/img/funding-anrf.png' | relative_url }}" alt="ANRF logo">
+  <img src="{{ '/assets/img/funding/funding-anrf.png' | relative_url }}" alt="ANRF logo">
 </div>
 -->
