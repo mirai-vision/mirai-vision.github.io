@@ -11,10 +11,10 @@ ninja.data = [{
     },
   },{id: "nav-people",
           title: "people",
-          description: "",
+          description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/people/";
           },
         },{id: "nav-publications",
           title: "publications",
