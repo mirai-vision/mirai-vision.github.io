@@ -1,10 +1,10 @@
 ---
 layout: page
-title: people
+title: projects
 permalink: /projects/
 description: 
-nav: true
-nav_order: 2
+nav: false
+nav_order: 99
 display_categories: [PI, PhD, Master, Undergraduate]
 horizontal: false
 ---
