@@ -3,7 +3,41 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.profiles %}
+    {% if page.directory_sections %}
+      <div class="people-directory">
+        {% if page.alumni_link %}
+          <p class="people-alumni-link">
+            <a href="{{ page.alumni_link | relative_url }}">View alumni</a>
+          </p>
+        {% endif %}
+
+        {% for section in page.directory_sections %}
+          <section class="people-section">
+            <h2 class="people-section-title">{{ section.title }}</h2>
+
+            <div class="people-grid">
+              {% for member in section.members %}
+                <div class="people-card">
+                  {% if member.image %}
+                    {% assign member_image_path = member.image | prepend: 'assets/img/' %}
+                    {%
+                      include figure.liquid
+                      loading="eager"
+                      path=member_image_path
+                      class="people-card-image rounded-circle"
+                      alt=member.name
+                    %}
+                  {% endif %}
+
+                  <div class="people-card-name">{{ member.name }}</div>
+                  <div class="people-card-role">{{ member.role }}</div>
+                </div>
+              {% endfor %}
+            </div>
+          </section>
+        {% endfor %}
+      </div>
+    {% elsif page.profiles %}
       {% for profile in page.profiles %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
