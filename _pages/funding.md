@@ -89,6 +89,9 @@ _styles: |
     flex-direction: row;
     height: 185px;
     width: 100%;
+    background: #ffffff !important;
+    border: 1px solid rgba(128, 128, 128, 0.22);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   }
 
   .funding-projects .funding-project-media {
@@ -124,12 +127,14 @@ _styles: |
     line-height: 1.1;
     margin-bottom: 0.45rem;
     text-decoration: none !important;
+    color: #111111;
   }
 
   .funding-projects .card-text {
     margin-bottom: 0;
     font-size: 1rem;
     text-decoration: none !important;
+    color: #5f6368;
   }
 
   @media (max-width: 767.98px) {
