@@ -1,11 +1,3 @@
-- title: commercialization project 1
-  description: Add a short description of the first project seeking commercialization funding.
-  img: assets/img/photos/1.jpg
-  url: /projects/
-- title: commercialization project 2
-  description: Add a short description of the second project seeking commercialization funding.
-  img: assets/img/photos/2.jpg
-  url: /projects/
 - title: commercialization project 3
   description: Add a short description of the third project seeking commercialization funding.
   img: assets/img/photos/3.jpg
