@@ -46,9 +46,16 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    {% assign publication_type = 'other' %}
+    {% if entry.type == 'article' %}
+      {% assign publication_type = 'journal' %}
+    {% elsif proceedings contains entry.type %}
+      {% assign publication_type = 'conference' %}
+    {% endif %}
     <span
       class="publication-status-marker"
       data-selected="{% if entry.selected == 'true' %}true{% else %}false{% endif %}"
+      data-publication-type="{{ publication_type }}"
       hidden
     ></span>
     <!-- Title -->
