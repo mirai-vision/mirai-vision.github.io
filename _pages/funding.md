@@ -116,7 +116,7 @@ _styles: |
     padding: 1.1rem 1.2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .funding-projects .card-title {
