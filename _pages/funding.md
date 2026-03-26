@@ -48,25 +48,72 @@ _styles: |
   }
 
   .funding-commercialization-note {
-    margin-top: 2rem;
+    margin-top: 1.25rem;
   }
 
   .funding-section-title {
-    margin-top: 2.25rem;
+    margin-top: 4.5rem;
     margin-bottom: 0.85rem;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-weight: 300;
   }
 
   .funding-projects {
-    margin-top: 1.5rem;
+    margin-top: 1.75rem;
   }
 
   .funding-projects .card {
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    min-height: 240px;
   }
 
   .funding-projects .card-img-top {
-    height: 220px;
+    width: 42%;
+    min-width: 42%;
+    height: auto;
     object-fit: cover;
+  }
+
+  .funding-projects .card-body {
+    width: 58%;
+    padding: 1.6rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .funding-projects .card-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 0.85rem;
+  }
+
+  .funding-projects .card-text {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 767.98px) {
+    .funding-section-title {
+      font-size: 2.8rem;
+    }
+
+    .funding-projects .card {
+      flex-direction: column;
+      min-height: unset;
+    }
+
+    .funding-projects .card-img-top,
+    .funding-projects .card-body {
+      width: 100%;
+      min-width: 100%;
+    }
+
+    .funding-projects .card-img-top {
+      height: 220px;
+    }
   }
 ---
 
@@ -105,7 +152,7 @@ Our lab is generously supported by various organizations whose contributions ena
 </div>
 
 <div class="funding-projects">
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-lg-2">
     {% for project in site.data.commercialization_projects %}
       <div class="col mb-4">
         <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
