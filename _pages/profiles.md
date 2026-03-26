@@ -40,6 +40,11 @@ _styles: |
     width: 180px;
   }
 
+  .people-card-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
   .people-card figure {
     margin: 0 0 0.7rem 0;
   }
@@ -62,6 +67,11 @@ _styles: |
     margin-top: 0.35rem;
     color: var(--global-text-color-light);
     line-height: 1.4;
+  }
+
+  .people-card-tenure {
+    color: var(--global-text-color-light);
+    line-height: 1.35;
   }
 
   @media (min-width: 992px) {
