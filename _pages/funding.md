@@ -63,20 +63,22 @@ _styles: |
     margin-top: 1.75rem;
   }
 
-  .funding-projects .col {
-    display: flex;
+  .funding-project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
   }
 
-  .funding-projects a {
+  .funding-projects .funding-project-link {
     display: block;
     width: 100%;
     color: inherit;
     text-decoration: none !important;
   }
 
-  .funding-projects a:hover,
-  .funding-projects a:focus,
-  .funding-projects a:active {
+  .funding-projects .funding-project-link:hover,
+  .funding-projects .funding-project-link:focus,
+  .funding-projects .funding-project-link:active {
     color: inherit;
     text-decoration: none !important;
   }
@@ -135,6 +137,10 @@ _styles: |
       font-size: 2.8rem;
     }
 
+    .funding-project-grid {
+      grid-template-columns: 1fr;
+    }
+
     .funding-projects .card {
       flex-direction: column;
       height: auto;
@@ -187,10 +193,9 @@ Our lab is generously supported by various organizations whose contributions ena
 </div>
 
 <div class="funding-projects">
-  <div class="row row-cols-1 row-cols-lg-2">
+  <div class="funding-project-grid">
     {% for project in site.data.commercialization_projects %}
-      <div class="col mb-4">
-        <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
+      <a class="funding-project-link" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
           <div class="card h-100 hoverable">
             {% if project.img %}
               <div class="funding-project-media">
@@ -209,8 +214,7 @@ Our lab is generously supported by various organizations whose contributions ena
               <p class="card-text">{{ project.description }}</p>
             </div>
           </div>
-        </a>
-      </div>
+      </a>
     {% endfor %}
   </div>
 </div>
