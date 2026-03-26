@@ -11,22 +11,34 @@ directory_sections:
   - title: phd
     members:
       - name: Chumki Dey
-        role: PhD Student
+        role: Institute Fellow (Dec 2023-)
         image: people/chumki.jpg
       - name: Srijita Khatua
-        role: PhD Student
-        image: people/female.jpg
+        role: Institute Fellow (Jun 2024-)
+        image: people/srijita.jpg
       - name: Suman
-        role: PhD Student
+        role: India AI Fellow (Jun 2025-)
         image: people/suman.jpg
       - name: Biswajit Bera
-        role: PhD Student
+        role: ANRF Fellow (Dec 2025-)
         image: people/biswajit.png
   - title: masters
     members:
-      - name: Master Student
-        role: Masters Student
-        image: people/prof_pic.jpg
-      - name: Master Student
-        role: Masters Student
-        image: people/prof_pic_color.png
+      - name: Deepak Rathore
+        role: M.Tech (Jul 2024-)
+        image: people/deepak.png
+      - name: Gangadhar Mahto
+        role: M.Tech (Jul 2024-)
+        image: people/gangadhar.jpeg
+      - name: Gangadhar Mahato
+        role: M.Tech (Jul 2024-)
+        image: people/gangadhar.jpeg
+      - name: Pranotosh Mandal
+        role: M.Tech (Jul 2024-)
+        image: people/Pranotosh.jpeg
+      - name: Shahbaz Athar
+        role: M.Tech (Jul 2024-)
+        image: people/male.jpg
+
+
+
