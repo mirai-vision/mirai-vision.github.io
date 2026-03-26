@@ -51,6 +51,11 @@ _styles: |
     margin-top: 2rem;
   }
 
+  .funding-section-title {
+    margin-top: 2.25rem;
+    margin-bottom: 0.85rem;
+  }
+
   .funding-projects {
     margin-top: 1.5rem;
   }
@@ -89,6 +94,8 @@ Our lab is generously supported by various organizations whose contributions ena
     </div>
   </a>
 </div>
+
+<h2 class="funding-section-title">research translation opportunities</h2>
 
 <div class="funding-commercialization-note">
   <p>
