@@ -106,8 +106,7 @@ _styles: |
 
   .funding-projects .card-text {
     margin-bottom: 0;
-    font-size: 0.9rem;
-    line-height: 1.45;
+    font-size: 1rem;
   }
 
   @media (max-width: 767.98px) {
