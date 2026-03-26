@@ -47,6 +47,9 @@ _styles: |
 
   .people-card figure {
     margin: 0 0 0.7rem 0;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    border-radius: 50%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.22);
   }
 
   .people-card-image {
@@ -54,9 +57,14 @@ _styles: |
     height: 160px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    border: 3px solid rgba(255, 255, 255, 0.12);
     background: var(--global-card-bg-color);
+    display: block;
+  }
+
+  .people-card-link:hover figure {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 34px rgba(0, 0, 0, 0.28);
   }
 
   .people-card-name {
