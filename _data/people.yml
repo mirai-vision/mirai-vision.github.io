@@ -30,12 +30,9 @@ directory_sections:
       - name: Gangadhar Mahto
         role: M.Tech (Jul 2024-)
         image: people/gangadhar.jpeg
-      - name: Gangadhar Mahato
-        role: M.Tech (Jul 2024-)
-        image: people/gangadhar.jpeg
       - name: Pranotosh Mandal
         role: M.Tech (Jul 2024-)
-        image: people/Pranotosh.jpeg
+        image: people/Pranothosh.jpeg
       - name: Shahbaz Athar
         role: M.Tech (Jul 2024-)
         image: people/male.jpg
