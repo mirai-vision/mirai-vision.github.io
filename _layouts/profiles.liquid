@@ -16,17 +16,38 @@ layout: page
                 <div class="people-card">
                   {% if member.image %}
                     {% assign member_image_path = member.image | prepend: 'assets/img/' %}
-                    {%
-                      include figure.liquid
-                      loading="eager"
-                      path=member_image_path
-                      class="people-card-image rounded-circle"
-                      alt=member.name
-                    %}
+                    {% if member.url %}
+                      <a class="people-card-link" href="{{ member.url }}" target="_blank" rel="noopener noreferrer">
+                        {%
+                          include figure.liquid
+                          loading="eager"
+                          path=member_image_path
+                          class="people-card-image rounded-circle"
+                          alt=member.name
+                        %}
+                      </a>
+                    {% else %}
+                      {%
+                        include figure.liquid
+                        loading="eager"
+                        path=member_image_path
+                        class="people-card-image rounded-circle"
+                        alt=member.name
+                      %}
+                    {% endif %}
                   {% endif %}
 
-                  <div class="people-card-name">{{ member.name }}</div>
+                  {% if member.url %}
+                    <a class="people-card-link people-card-name" href="{{ member.url }}" target="_blank" rel="noopener noreferrer">
+                      {{ member.name }}
+                    </a>
+                  {% else %}
+                    <div class="people-card-name">{{ member.name }}</div>
+                  {% endif %}
                   <div class="people-card-role">{{ member.role }}</div>
+                  {% if member.tenure %}
+                    <div class="people-card-tenure">{{ member.tenure }}</div>
+                  {% endif %}
                 </div>
               {% endfor %}
             </div>
