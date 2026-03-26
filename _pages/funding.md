@@ -183,7 +183,7 @@ Our lab is generously supported by various organizations whose contributions ena
   </a>
 </div>
 
-<h2 class="funding-section-title">research translation opportunities</h2>
+<h2 class="funding-section-title">research translation</h2>
 
 <div class="funding-commercialization-note">
   <p>
