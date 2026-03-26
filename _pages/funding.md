@@ -67,12 +67,12 @@ _styles: |
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    min-height: 240px;
+    height: 185px;
   }
 
   .funding-projects .funding-project-media {
-    width: 48%;
-    min-width: 48%;
+    width: 30%;
+    min-width: 30%;
   }
 
   .funding-projects .funding-project-media figure,
@@ -91,21 +91,23 @@ _styles: |
   }
 
   .funding-projects .card-body {
-    width: 52%;
-    padding: 1.6rem 1.5rem;
+    width: 70%;
+    padding: 1.1rem 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   .funding-projects .card-title {
-    font-size: 2rem;
+    font-size: 1.15rem;
     line-height: 1.1;
-    margin-bottom: 0.85rem;
+    margin-bottom: 0.45rem;
   }
 
   .funding-projects .card-text {
     margin-bottom: 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
   }
 
   @media (max-width: 767.98px) {
@@ -115,7 +117,7 @@ _styles: |
 
     .funding-projects .card {
       flex-direction: column;
-      min-height: unset;
+      height: auto;
     }
 
     .funding-projects .funding-project-media,
