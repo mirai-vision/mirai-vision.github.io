@@ -11,13 +11,13 @@ _styles: |
   }
 
   .people-alumni-link {
-    margin-top: 2.2rem;
+    margin-top: 3rem;
     margin-bottom: 0;
     font-size: 1.1rem;
   }
 
   .people-section {
-    margin-top: 2rem;
+    margin-top: 2.6rem;
   }
 
   .people-section-title {
