@@ -61,7 +61,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.querySelectorAll(".bibliography > li").forEach((element) => {
       const isSelected = element.querySelector(".publication-status-marker")?.dataset.selected === "true";
+      const publicationType = element.querySelector(".publication-status-marker")?.dataset.publicationType;
       if (currentView === "selected" && !isSelected) {
+        element.classList.add("unloaded");
+      }
+      if (currentView === "conferences" && publicationType !== "conference") {
+        element.classList.add("unloaded");
+      }
+      if (currentView === "journals" && publicationType !== "journal") {
         element.classList.add("unloaded");
       }
     });
