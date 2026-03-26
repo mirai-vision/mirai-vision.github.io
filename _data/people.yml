@@ -5,37 +5,54 @@ directory_sections:
       - name: Sudhakar Kumawat
         role: Assistant Professor
         image: people/sudhakar_pic.jpg
+        url: https://www.iitism.ac.in/
       - name: Manisha Verma
         role: Assistant Professor
         image: people/manisha_pic.jpg
+        url: https://www.iitism.ac.in/
   - title: phd
     members:
       - name: Chumki Dey
-        role: Institute Fellow (Dec 2023-)
+        role: Institute Fellow
+        tenure: (Dec 2023-)
         image: people/chumki.jpg
+        url: https://www.iitism.ac.in/
       - name: Srijita Khatua
-        role: Institute Fellow (Jun 2024-)
+        role: Institute Fellow
+        tenure: (Jun 2024-)
         image: people/srijita.jpg
+        url: https://www.iitism.ac.in/
       - name: Suman
-        role: India AI Fellow (Jun 2025-)
+        role: India AI Fellow
+        tenure: (Jun 2025-)
         image: people/suman.jpg
+        url: https://www.iitism.ac.in/
       - name: Biswajit Bera
-        role: ANRF Fellow (Dec 2025-)
+        role: ANRF Fellow
+        tenure: (Dec 2025-)
         image: people/biswajit.png
+        url: https://www.iitism.ac.in/
   - title: masters
     members:
       - name: Deepak Rathore
-        role: M.Tech (Jul 2024-)
+        role: M.Tech
+        tenure: (Jul 2024-)
         image: people/deepak.png
+        url: https://www.iitism.ac.in/
       - name: Gangadhar Mahto
-        role: M.Tech (Jul 2024-)
+        role: M.Tech
+        tenure: (Jul 2024-)
         image: people/gangadhar.jpeg
+        url: https://www.iitism.ac.in/
       - name: Pranotosh Mandal
-        role: M.Tech (Jul 2024-)
+        role: M.Tech
+        tenure: (Jul 2024-)
         image: people/Pranothosh.jpeg
+        url: https://www.iitism.ac.in/
       - name: Shahbaz Athar
-        role: M.Tech (Jul 2024-)
+        role: M.Tech
+        tenure: (Jul 2024-)
         image: people/male.jpg
-
+        url: https://www.iitism.ac.in/
 
 
