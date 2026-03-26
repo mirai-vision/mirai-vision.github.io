@@ -54,7 +54,7 @@ _styles: |
   .funding-section-title {
     margin-top: 4.5rem;
     margin-bottom: 0.85rem;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.1;
     font-weight: 300;
   }
@@ -70,15 +70,28 @@ _styles: |
     min-height: 240px;
   }
 
+  .funding-projects .funding-project-media {
+    width: 48%;
+    min-width: 48%;
+  }
+
+  .funding-projects .funding-project-media figure,
+  .funding-projects .funding-project-media picture {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+  }
+
   .funding-projects .card-img-top {
-    width: 42%;
-    min-width: 42%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    display: block;
   }
 
   .funding-projects .card-body {
-    width: 58%;
+    width: 52%;
     padding: 1.6rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -105,7 +118,7 @@ _styles: |
       min-height: unset;
     }
 
-    .funding-projects .card-img-top,
+    .funding-projects .funding-project-media,
     .funding-projects .card-body {
       width: 100%;
       min-width: 100%;
@@ -158,14 +171,16 @@ Our lab is generously supported by various organizations whose contributions ena
         <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
           <div class="card h-100 hoverable">
             {% if project.img %}
-              {%
-                include figure.liquid
-                loading="eager"
-                path=project.img
-                sizes="250px"
-                alt=project.title
-                class="card-img-top"
-              %}
+              <div class="funding-project-media">
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path=project.img
+                  sizes="250px"
+                  alt=project.title
+                  class="card-img-top"
+                %}
+              </div>
             {% endif %}
             <div class="card-body">
               <h2 class="card-title">{{ project.title }}</h2>
