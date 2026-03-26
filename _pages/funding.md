@@ -8,8 +8,8 @@ nav_order: 4
 _styles: |
   .funding-logos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.2rem;
     margin-top: 2rem;
     align-items: center;
   }
@@ -21,14 +21,14 @@ _styles: |
   }
 
   .funding-logo-item {
-    height: 180px;
+    height: 145px;
     border: 1px solid rgba(128, 128, 128, 0.22);
     border-radius: 1rem;
     background: #ffffff !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.35rem;
+    padding: 1rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
     overflow: hidden;
     transition: transform 0.18s ease, box-shadow 0.18s ease;
@@ -40,11 +40,15 @@ _styles: |
   }
 
   .funding-logo-item img {
-    max-width: 220px;
-    height: 96px;
+    max-width: 180px;
+    height: 72px;
     width: auto;
     object-fit: contain;
     display: block;
+  }
+
+  .funding-commercialization-note {
+    margin-top: 2rem;
   }
 ---
 
@@ -71,6 +75,13 @@ Our lab is generously supported by various organizations whose contributions ena
       <img src="{{ '/assets/img/funding/funding-texmin.jpg' | relative_url }}" alt="TexMin logo">
     </div>
   </a>
+</div>
+
+<div class="funding-commercialization-note">
+  <p>
+    We are actively looking to commercialize our research works. Following are the projects for which we are looking for
+    funding for commercialization.
+  </p>
 </div>
 
 <!--
