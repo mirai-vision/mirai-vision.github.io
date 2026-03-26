@@ -50,6 +50,19 @@ _styles: |
   .funding-commercialization-note {
     margin-top: 2rem;
   }
+
+  .funding-projects {
+    margin-top: 1.5rem;
+  }
+
+  .funding-projects .card {
+    overflow: hidden;
+  }
+
+  .funding-projects .card-img-top {
+    height: 220px;
+    object-fit: cover;
+  }
 ---
 
 Our lab is generously supported by various organizations whose contributions enable us to advance research in artificial intelligence, computer vision, computational photography, and allied areas.
@@ -82,6 +95,33 @@ Our lab is generously supported by various organizations whose contributions ena
     We are actively looking to commercialize our research works. Following are the projects for which we are looking for
     funding for commercialization.
   </p>
+</div>
+
+<div class="funding-projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in site.data.commercialization_projects %}
+      <div class="col mb-4">
+        <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
+          <div class="card h-100 hoverable">
+            {% if project.img %}
+              {%
+                include figure.liquid
+                loading="eager"
+                path=project.img
+                sizes="250px"
+                alt=project.title
+                class="card-img-top"
+              %}
+            {% endif %}
+            <div class="card-body">
+              <h2 class="card-title">{{ project.title }}</h2>
+              <p class="card-text">{{ project.description }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <!--
