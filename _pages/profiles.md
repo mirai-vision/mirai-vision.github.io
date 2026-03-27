@@ -7,14 +7,6 @@ nav: true
 nav_order: 2
 _styles: |
   .people-directory {
-    --people-name-color: #b22222;
-  }
-
-  html[data-theme="dark"] .people-directory {
-    --people-name-color: #ff6b6b;
-  }
-
-  .people-directory {
     text-align: center;
   }
 
@@ -80,7 +72,7 @@ _styles: |
     font-size: 1.15rem;
     font-weight: 400;
     line-height: 1.35;
-    color: var(--people-name-color);
+    color: var(--global-theme-color);
   }
 
   .people-card-role {
