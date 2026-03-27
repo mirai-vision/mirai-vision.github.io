@@ -54,5 +54,25 @@ directory_sections:
         tenure: (Jul 2024-)
         image: people/male.jpg
         url: https://www.iitism.ac.in/
+      - name: Gaurav Negi
+        role: M.Sc
+        tenure: (Jul 2024-)
+        image: people/male.jpg
+        url: https://www.iitism.ac.in/
+      - name: Nitisha Phore
+        role: M.Sc
+        tenure: (Jul 2024-)
+        image: people/female.jpg
+        url: https://www.iitism.ac.in/
+      - name: Jatin Khurana
+        role: M.Sc
+        tenure: (Jul 2024-)
+        image: people/male.jpg
+        url: https://www.iitism.ac.in/
+      - name: Parasmani Yogi
+        role: M.Sc
+        tenure: (Jul 2024-)
+        image: people/female.jpg
+        url: https://www.iitism.ac.in/
 
 
