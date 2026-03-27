@@ -1,4 +1,5 @@
 alumni_link: /people/alumni/
+alumni_sections: []
 directory_sections:
   - title: faculty
     members:
@@ -81,6 +82,5 @@ directory_sections:
         tenure: (Jun 2025-)
         image: people/amar.jpg
         url: https://www.iitism.ac.in/
-
 
 
