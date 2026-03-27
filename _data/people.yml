@@ -74,5 +74,13 @@ directory_sections:
         tenure: (Jul 2024-)
         image: people/female.jpg
         url: https://www.iitism.ac.in/
+  - title: Others
+    members:
+      - name: Amar Gupta
+        role: Project JRF
+        tenure: (Jun 2025-)
+        image: people/amar.jpg
+        url: https://www.iitism.ac.in/
+
 
 
