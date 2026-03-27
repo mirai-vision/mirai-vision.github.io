@@ -1,10 +1,25 @@
 ---
-layout: page
+layout: default
 ---
+{% if page._styles %}
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
 <div class="post">
+  <header class="post-header people-page-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% assign people_alumni_link = page.alumni_link | default: site.data.people.alumni_link %}
+    {% if people_alumni_link %}
+      <p class="people-alumni-link">
+        <a href="{{ people_alumni_link | relative_url }}">View alumni</a>
+      </p>
+    {% endif %}
+  </header>
+
   <article>
     {% assign people_sections = page.directory_sections | default: site.data.people.directory_sections %}
-    {% assign people_alumni_link = page.alumni_link | default: site.data.people.alumni_link %}
     {% if people_sections %}
       <div class="people-directory">
         {% for section in people_sections %}
@@ -53,12 +68,6 @@ layout: page
             </div>
           </section>
         {% endfor %}
-
-        {% if people_alumni_link %}
-          <p class="people-alumni-link">
-            <a href="{{ people_alumni_link | relative_url }}">View alumni</a>
-          </p>
-        {% endif %}
       </div>
     {% elsif page.profiles %}
       {% for profile in page.profiles %}
