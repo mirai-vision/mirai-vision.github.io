@@ -6,14 +6,25 @@ description:
 nav: true
 nav_order: 2
 _styles: |
+  .people-page-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .people-page-header .post-title {
+    margin-bottom: 0;
+  }
+
   .people-directory {
     text-align: center;
   }
 
   .people-alumni-link {
-    margin-top: 3rem;
     margin-bottom: 0;
     font-size: 1.1rem;
+    text-align: right;
   }
 
   .people-section {
@@ -89,6 +100,17 @@ _styles: |
   @media (min-width: 992px) {
     .people-grid {
       justify-content: center;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .people-page-header {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .people-alumni-link {
+      text-align: left;
     }
   }
 ---
