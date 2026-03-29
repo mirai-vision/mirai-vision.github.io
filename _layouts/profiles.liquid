@@ -13,9 +13,10 @@ layout: default
     {% assign people_data_key = page.people_data_key | default: 'directory_sections' %}
     {% assign people_sections = page.directory_sections | default: site.data.people[people_data_key] %}
     {% assign people_alumni_link = page.alumni_link | default: site.data.people.alumni_link %}
+    {% assign people_alumni_link_label = page.alumni_link_label | default: 'View alumni' %}
     {% if people_alumni_link %}
       <p class="people-alumni-link">
-        <a href="{{ people_alumni_link | relative_url }}">View alumni</a>
+        <a href="{{ people_alumni_link | relative_url }}">{{ people_alumni_link_label }}</a>
       </p>
     {% endif %}
   </header>
