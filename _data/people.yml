@@ -3,22 +3,22 @@ alumni_sections:
   - title: masters
     members:
       - name: Ashutosh Kumar
-        role: M.Sc (Jul 2023-May 2025)
+        role: M.Sc (Jul'23-May'25)
         tenure: M.Tech, IIsc Bangalore
         image: people/ashutosh.jpeg
         url: https://www.iitism.ac.in/
       - name: Roshan Jha
-        role: M.Sc (Jul 2023-May 2025)
+        role: M.Sc (Jul'23-May'25)
         tenure: Data Scientist, Virtusa
         image: people/roshan.jpeg
         url: https://www.iitism.ac.in/
       - name: Subham Niranjan
-        role: M.Sc (Jul 2023-May 2025)
+        role: M.Sc (Jul'23-May'25)
         tenure: Data Scientist, Virtusa
         image: people/subham.jpg
         url: https://www.iitism.ac.in/
       - name: Hirakjyoti Medhi
-        role: M.Sc (Jul 2023-May 2025)
+        role: M.Sc (Jul'23-May'25)
         tenure: Data Scientist, Virtusa
         image: people/hirak.jpeg
         url: https://www.iitism.ac.in/
