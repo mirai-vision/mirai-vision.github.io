@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to Suman for getting selected for the India AI PhD fellowship.
+Congratulations to Suman on being selected for the India AI PhD Fellowship! 🎉
