@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to Prof. Sudhakar for getting the ANRF PMECRG Grant.
+Congratulations to Prof. Sudhakar on being awarded the ANRF PMECRG Grant! 🎉
