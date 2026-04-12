@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to Prof. Manisha for getting the ANRF PMECRG Grant.
+Congratulations to Prof. Manisha on being awarded the ANRF PMECRG grant.
