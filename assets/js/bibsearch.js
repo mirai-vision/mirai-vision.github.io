@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("bibsearch");
   if (!searchInput) return;
 
-  let currentView = "selected";
+  let currentView = "all";
 
   const updateGroupingVisibility = () => {
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
