@@ -274,8 +274,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Kumawat]
-  first_name: [Sudhakar, S.]
+  last_name: [Kumawat, Verma]
+  first_name: [Sudhakar, S., Manisha, M.]
 
   style: apa
   locale: en
