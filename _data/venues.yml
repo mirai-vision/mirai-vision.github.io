@@ -7,3 +7,51 @@
 
 "Vision":
   color: "#009f36"
+
+"TPAMI":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
+  color: "#1f5aa6"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#865dff"
+
+"ICPR":
+  url: https://www.icpr2024.org/
+  color: "#cc3d3d"
+
+"MICCAI":
+  url: https://conferences.miccai.org/
+  color: "#0f8b8d"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#004e98"
+
+"CVPRW":
+  url: https://cvpr.thecvf.com/
+  color: "#6a4c93"
+
+"ICASSP":
+  url: https://ieeeicassp.org/
+  color: "#ff7b00"
+
+"CODS":
+  url: https://www.cods-comad.in/
+  color: "#2a9d8f"
+
+"NCC":
+  url: https://www.ieeebangalore.org/ncc/
+  color: "#7c4dff"
+
+"CoRR":
+  url: https://arxiv.org/
+  color: "#6c757d"
+
+"IACR":
+  url: https://eprint.iacr.org/
+  color: "#1d3557"
+
+"Inscrypt":
+  url: https://link.springer.com/conference/inscrypt
+  color: "#457b9d"
