@@ -55,3 +55,59 @@
 "Inscrypt":
   url: https://link.springer.com/conference/inscrypt
   color: "#457b9d"
+
+"ICIP":
+  url: https://2021.ieeeicip.org/
+  color: "#3a86ff"
+
+"AIED":
+  url: https://aied2022.web.illinois.edu/
+  color: "#588157"
+
+"ApplInt":
+  url: https://link.springer.com/journal/10489
+  color: "#bc6c25"
+
+"MTA":
+  url: https://link.springer.com/journal/11042
+  color: "#9d4edd"
+
+"DSP":
+  url: https://www.sciencedirect.com/journal/digital-signal-processing
+  color: "#4361ee"
+
+"PAA":
+  url: https://link.springer.com/journal/10044
+  color: "#2f6690"
+
+"Neurocomputing":
+  url: https://www.sciencedirect.com/journal/neurocomputing
+  color: "#355070"
+
+"JVCIR":
+  url: https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation
+  color: "#264653"
+
+"ICSIPA":
+  url: https://ieeexplore.ieee.org/xpl/conhome/7443010/proceeding
+  color: "#f4a261"
+
+"VCIP":
+  url: https://ieeexplore.ieee.org/xpl/conhome/7445257/proceeding
+  color: "#e76f51"
+
+"IC3":
+  url: https://ieeexplore.ieee.org/xpl/conhome/7042115/proceeding
+  color: "#6d597a"
+
+"ICIAP":
+  url: https://link.springer.com/book/10.1007/978-3-319-68560-1
+  color: "#52796f"
+
+"CVIP":
+  url: https://link.springer.com/conference/cvip
+  color: "#8d99ae"
+
+"NCVPRIPG":
+  url: https://link.springer.com/book/10.1007/978-981-10-7898-9
+  color: "#ef476f"
