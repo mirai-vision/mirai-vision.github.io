@@ -16,7 +16,7 @@ _styles: |
 
   .dataset-section-title {
     margin-bottom: 1.35rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1.1;
   }
@@ -28,7 +28,7 @@ _styles: |
   }
 
   .dataset-card {
-    min-height: 190px;
+    aspect-ratio: 2.4 / 1;
     overflow: hidden;
     display: flex;
     border: 1px solid rgba(128, 128, 128, 0.22);
@@ -45,8 +45,8 @@ _styles: |
 
   .dataset-card-visual {
     position: relative;
-    width: 34%;
-    min-width: 34%;
+    width: 30%;
+    min-width: 30%;
     overflow: hidden;
   }
 
@@ -103,7 +103,8 @@ _styles: |
   }
 
   .dataset-card-body {
-    padding: 1.35rem 1.45rem;
+    width: 70%;
+    padding: 1.1rem 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +113,7 @@ _styles: |
   .dataset-card-title {
     margin: 0 0 0.55rem;
     color: #111111;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
     line-height: 1.15;
   }
@@ -123,20 +124,9 @@ _styles: |
     font-size: 1rem;
   }
 
-  .dataset-card-status {
-    display: inline-block;
-    width: fit-content;
-    margin-top: 1rem;
-    color: var(--global-theme-color);
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-
   @media (max-width: 767.98px) {
     .dataset-section-title {
-      font-size: 2.2rem;
+      font-size: 1.8rem;
     }
 
     .dataset-grid {
@@ -144,7 +134,19 @@ _styles: |
     }
 
     .dataset-card {
-      min-height: 175px;
+      aspect-ratio: auto;
+      height: auto;
+      flex-direction: column;
+    }
+
+    .dataset-card-visual,
+    .dataset-card-body {
+      width: 100%;
+      min-width: 100%;
+    }
+
+    .dataset-card-visual {
+      height: 220px;
     }
   }
 ---
@@ -159,7 +161,6 @@ _styles: |
         <p class="dataset-card-text">
           A curated resource for recognizing and reasoning about material appearance in real-world visual scenes.
         </p>
-        <span class="dataset-card-status">Coming soon</span>
       </div>
     </article>
   </div>
@@ -175,7 +176,6 @@ _styles: |
         <p class="dataset-card-text">
           A benchmark for fine-grained human-pose understanding, designed for robust analysis across visual contexts.
         </p>
-        <span class="dataset-card-status">Coming soon</span>
       </div>
     </article>
   </div>
