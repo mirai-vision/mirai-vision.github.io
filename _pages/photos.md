@@ -4,7 +4,7 @@ permalink: /photos/
 title: photos
 description:
 nav: true
-nav_order: 6
+nav_order: 7
 _styles: |
   .photos-carousel {
     max-width: 980px;
