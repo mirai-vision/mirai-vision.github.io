@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-datasets",
+          title: "datasets",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/datasets/";
+          },
         },{id: "nav-funding",
           title: "funding",
           description: "",
