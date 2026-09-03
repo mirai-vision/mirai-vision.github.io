@@ -2,6 +2,12 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Keep centered content stationary when pages have different heights.
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
 // Typography
 
 p,
