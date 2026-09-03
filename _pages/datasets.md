@@ -28,7 +28,7 @@ _styles: |
   }
 
   .dataset-card {
-    aspect-ratio: 2.4 / 1;
+    aspect-ratio: 3.4 / 1;
     overflow: hidden;
     display: flex;
     border: 1px solid rgba(128, 128, 128, 0.22);
@@ -159,7 +159,7 @@ _styles: |
       <div class="dataset-card-body">
         <h3 class="dataset-card-title">Material Understanding Dataset</h3>
         <p class="dataset-card-text">
-          A curated resource for recognizing and reasoning about material appearance in real-world visual scenes.
+          A visual benchmark for material recognition in real-world scenes.
         </p>
       </div>
     </article>
@@ -174,7 +174,7 @@ _styles: |
       <div class="dataset-card-body">
         <h3 class="dataset-card-title">Pose Understanding Dataset</h3>
         <p class="dataset-card-text">
-          A benchmark for fine-grained human-pose understanding, designed for robust analysis across visual contexts.
+          A benchmark for fine-grained human-pose understanding.
         </p>
       </div>
     </article>
