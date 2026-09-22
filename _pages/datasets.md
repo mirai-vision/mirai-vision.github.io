@@ -157,9 +157,9 @@ _styles: |
     <article class="dataset-card">
       <div class="dataset-card-visual material-visual" aria-hidden="true"></div>
       <div class="dataset-card-body">
-        <h3 class="dataset-card-title">Material Understanding Dataset</h3>
+        <h3 class="dataset-card-title">MatSense Dataset</h3>
         <p class="dataset-card-text">
-          A visual benchmark for material recognition in real-world scenes.
+          A multimodal dataset containing RGB, NIR, Polarisation, and Thermal Imaginary for Material Classificaion.
         </p>
       </div>
     </article>
