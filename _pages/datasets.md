@@ -43,6 +43,18 @@ _styles: |
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
   }
 
+  .dataset-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none !important;
+  }
+
+  .dataset-card-link:hover,
+  .dataset-card-link:focus {
+    color: inherit;
+    text-decoration: none !important;
+  }
+
   .dataset-card-visual {
     position: relative;
     width: 30%;
@@ -154,15 +166,17 @@ _styles: |
 <section class="dataset-section">
   <h2 class="dataset-section-title">Material Understanding</h2>
   <div class="dataset-grid">
-    <article class="dataset-card">
-      <div class="dataset-card-visual material-visual" aria-hidden="true"></div>
-      <div class="dataset-card-body">
-        <h3 class="dataset-card-title">MatSense Dataset</h3>
-        <p class="dataset-card-text">
-          A multimodal dataset containing RGB, NIR, Polar, and Thermal Imaginary for Material Classificaion.
-        </p>
-      </div>
-    </article>
+    <a class="dataset-card-link" href="{{ '/datasets/matsense/' | relative_url }}">
+      <article class="dataset-card">
+        <div class="dataset-card-visual material-visual" aria-hidden="true"></div>
+        <div class="dataset-card-body">
+          <h3 class="dataset-card-title">MatSense Dataset</h3>
+          <p class="dataset-card-text">
+            A multimodal dataset containing RGB, NIR, Polar, and Thermal Imaginary for Material Classificaion.
+          </p>
+        </div>
+      </article>
+    </a>
   </div>
 </section>
 
