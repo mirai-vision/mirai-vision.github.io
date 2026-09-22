@@ -159,7 +159,7 @@ _styles: |
       <div class="dataset-card-body">
         <h3 class="dataset-card-title">MatSense Dataset</h3>
         <p class="dataset-card-text">
-          A multimodal dataset containing RGB, NIR, Polarisation, and Thermal Imaginary for Material Classificaion.
+          A multimodal dataset containing RGB, NIR, Polar, and Thermal Imaginary for Material Classificaion.
         </p>
       </div>
     </article>
