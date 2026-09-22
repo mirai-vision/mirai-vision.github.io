@@ -62,36 +62,22 @@ _styles: |
     overflow: hidden;
   }
 
-  .dataset-card-visual::before,
-  .dataset-card-visual::after {
-    content: '';
-    position: absolute;
-  }
-
-  .material-visual {
-    background:
-      radial-gradient(circle at 28% 22%, rgba(255, 255, 255, 0.7) 0 4%, transparent 5%),
-      radial-gradient(circle at 72% 68%, rgba(255, 255, 255, 0.55) 0 6%, transparent 7%),
-      linear-gradient(145deg, #b8cf9f 0%, #557a55 48%, #203c32 100%);
-  }
-
-  .material-visual::before {
-    inset: 12% -30% 8% 10%;
-    background: repeating-linear-gradient(120deg, transparent 0 11px, rgba(232, 244, 204, 0.72) 12px 15px, transparent 16px 26px);
-    transform: rotate(-12deg);
-  }
-
-  .material-visual::after {
-    width: 82%;
-    aspect-ratio: 1;
-    right: -22%;
-    bottom: -15%;
-    border: 2px solid rgba(239, 247, 217, 0.75);
-    border-radius: 48% 52% 43% 57%;
+  .dataset-card-image {
+    display: block;
+    width: 30%;
+    min-width: 30%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .pose-visual {
     background: linear-gradient(145deg, #f4c6aa 0%, #d46d5d 48%, #5b2c4f 100%);
+  }
+
+  .pose-visual::before,
+  .pose-visual::after {
+    content: '';
+    position: absolute;
   }
 
   .pose-visual::before {
@@ -152,12 +138,14 @@ _styles: |
     }
 
     .dataset-card-visual,
+    .dataset-card-image,
     .dataset-card-body {
       width: 100%;
       min-width: 100%;
     }
 
-    .dataset-card-visual {
+    .dataset-card-visual,
+    .dataset-card-image {
       height: 220px;
     }
   }
@@ -168,7 +156,11 @@ _styles: |
   <div class="dataset-grid">
     <a class="dataset-card-link" href="{{ '/datasets/matsense/' | relative_url }}">
       <article class="dataset-card">
-        <div class="dataset-card-visual material-visual" aria-hidden="true"></div>
+        <img
+          class="dataset-card-image"
+          src="{{ '/assets/img/datasets/matsense-card.png' | relative_url }}"
+          alt="Material samples for the MatSense multimodal dataset"
+        >
         <div class="dataset-card-body">
           <h3 class="dataset-card-title">MatSense Dataset</h3>
           <p class="dataset-card-text">
