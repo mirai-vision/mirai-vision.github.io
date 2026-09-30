@@ -174,6 +174,7 @@ _styles: |
     color: var(--global-text-color);
     background: var(--global-card-bg-color);
     font-size: 0.88rem;
+    text-decoration: none !important;
     white-space: nowrap;
   }
 
@@ -263,7 +264,7 @@ _styles: |
     </div>
     <div class="matsense-fact">
       <span class="matsense-fact-label">Status</span>
-      <span class="matsense-fact-value">Dataset release in preparation</span>
+      <span class="matsense-fact-value">Access by request</span>
     </div>
   </aside>
 </div>
@@ -329,10 +330,19 @@ _styles: |
   <div class="matsense-download-panel">
     <div>
       <h3>MatSense release package</h3>
-      <p>Dataset files, annotations, benchmark protocol, and baseline resources will be made available here.</p>
+      <p>Request dataset access and receive the download link and citation guidance by email.</p>
     </div>
     <div class="matsense-download-actions" aria-label="MatSense downloads">
-      <span class="matsense-download-button" aria-disabled="true">Dataset download</span>
+      {% if site.matsense_download.google_form_url %}
+        <a
+          class="matsense-download-button"
+          href="{{ site.matsense_download.google_form_url | escape }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Request dataset access</a>
+      {% else %}
+        <span class="matsense-download-button" aria-disabled="true">Request dataset access</span>
+      {% endif %}
       <span class="matsense-download-button" aria-disabled="true">Annotations</span>
       <span class="matsense-download-button" aria-disabled="true">Benchmark code</span>
     </div>
