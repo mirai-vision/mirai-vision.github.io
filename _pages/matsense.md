@@ -17,7 +17,7 @@ _styles: |
   .matsense-hero img {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 7;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
   }
 
@@ -78,12 +78,28 @@ _styles: |
     gap: 1rem;
   }
 
+  .matsense-class-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .matsense-class {
+    padding: 0.5rem 0.72rem;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 999px;
+    background: rgba(128, 128, 128, 0.06);
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+    line-height: 1.1;
+  }
+
   .matsense-modality {
     min-height: 148px;
     padding: 1.15rem;
-    border: 1px solid rgba(128, 128, 128, 0.22);
+    border: 1px solid var(--global-divider-color);
     border-radius: 0.6rem;
-    background: #ffffff;
+    background: var(--global-card-bg-color);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   }
 
@@ -102,14 +118,14 @@ _styles: |
 
   .matsense-modality h3 {
     margin: 0 0 0.35rem;
-    color: #111111;
+    color: var(--global-text-color);
     font-size: 1.05rem;
     font-weight: 500;
   }
 
   .matsense-modality p {
     margin: 0;
-    color: #5f6368;
+    color: var(--global-text-color-light);
     font-size: 0.92rem;
     line-height: 1.45;
   }
@@ -120,21 +136,25 @@ _styles: |
     justify-content: space-between;
     gap: 2rem;
     padding: 1.75rem;
-    border: 1px solid rgba(128, 128, 128, 0.24);
+    border: 1px solid var(--global-divider-color);
     border-radius: 0.7rem;
-    background: linear-gradient(125deg, rgba(202, 53, 43, 0.08), rgba(255, 255, 255, 0.95) 46%);
+    background: linear-gradient(125deg, rgba(202, 53, 43, 0.1), var(--global-card-bg-color) 46%);
+  }
+
+  html[data-theme="dark"] .matsense-download-panel {
+    background: linear-gradient(125deg, rgba(235, 91, 81, 0.18), var(--global-card-bg-color) 55%);
   }
 
   .matsense-download-panel h3 {
     margin: 0 0 0.35rem;
-    color: #111111;
+    color: var(--global-text-color);
     font-size: 1.2rem;
     font-weight: 500;
   }
 
   .matsense-download-panel p {
     margin: 0;
-    color: #5f6368;
+    color: var(--global-text-color-light);
   }
 
   .matsense-download-actions {
@@ -149,10 +169,10 @@ _styles: |
     align-items: center;
     min-height: 2.55rem;
     padding: 0.55rem 0.9rem;
-    border: 1px solid rgba(128, 128, 128, 0.28);
+    border: 1px solid var(--global-divider-color);
     border-radius: 0.3rem;
-    color: #6b6b6b;
-    background: rgba(255, 255, 255, 0.76);
+    color: var(--global-text-color);
+    background: var(--global-card-bg-color);
     font-size: 0.88rem;
     white-space: nowrap;
   }
@@ -214,7 +234,7 @@ _styles: |
 
 <figure class="matsense-hero">
   <img
-    src="{{ '/assets/img/datasets/matsense-hero.png' | relative_url }}"
+    src="{{ '/assets/img/datasets/matsense-hero-v4.png' | relative_url }}"
     alt="Illustration of material samples viewed through multiple sensing modalities"
   >
 </figure>
@@ -247,6 +267,36 @@ _styles: |
     </div>
   </aside>
 </div>
+
+<section class="matsense-section">
+  <h2 class="matsense-section-title">Material Classes</h2>
+  <p class="matsense-copy">
+    MatSense covers 20 material classes spanning plastics, metals, natural materials, textiles, and manufactured
+    surfaces.
+  </p>
+  <div class="matsense-class-grid" aria-label="MatSense material classes">
+    <span class="matsense-class" title="polystyrene plastic">PS</span>
+    <span class="matsense-class" title="clay or terracotta material">Clay</span>
+    <span class="matsense-class" title="high-density polyethylene plastic">HDPE</span>
+    <span class="matsense-class" title="low-density polyethylene plastic">LDPE</span>
+    <span class="matsense-class" title="steel metal">Steel</span>
+    <span class="matsense-class" title="ceramic material">Ceramic</span>
+    <span class="matsense-class" title="polypropylene plastic">PP</span>
+    <span class="matsense-class" title="paper material">Paper</span>
+    <span class="matsense-class" title="organic plant material">Organic</span>
+    <span class="matsense-class" title="aluminium metal">Aluminium</span>
+    <span class="matsense-class" title="polyvinyl chloride plastic">PVC</span>
+    <span class="matsense-class" title="polyethylene terephthalate plastic">PET</span>
+    <span class="matsense-class" title="copper metal">Copper</span>
+    <span class="matsense-class" title="glass material">Glass</span>
+    <span class="matsense-class" title="rubber material">Rubber</span>
+    <span class="matsense-class" title="wood material">Wood</span>
+    <span class="matsense-class" title="cotton textile material">Cotton</span>
+    <span class="matsense-class" title="ethylene-vinyl acetate material">EVA</span>
+    <span class="matsense-class" title="leather material">Leather</span>
+    <span class="matsense-class" title="natural rock or stone material">Rock</span>
+  </div>
+</section>
 
 <section class="matsense-section">
   <h2 class="matsense-section-title">Multimodal Capture</h2>
