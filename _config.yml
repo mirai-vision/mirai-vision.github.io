@@ -22,6 +22,11 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
+# Public setting for the MatSense access-request form. The dataset URL belongs
+# only in private Google Apps Script Properties; do not add it here.
+matsense_download:
+  google_form_url: https://docs.google.com/forms/d/e/1FAIpQLSdJma2dUBMyyBAR5YBIKpvJvy-3cS9T0Qz1SHFIolj-zK-Ung/viewform
+
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -201,6 +206,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - google-apps-script/
 keep_files:
   - CNAME
   - .nojekyll
