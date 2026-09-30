@@ -158,7 +158,7 @@ _styles: |
       <article class="dataset-card">
         <img
           class="dataset-card-image"
-          src="{{ '/assets/img/datasets/matsense-card.png' | relative_url }}"
+          src="{{ '/assets/img/datasets/matsense-card-v4.png' | relative_url }}"
           alt="Material samples for the MatSense multimodal dataset"
         >
         <div class="dataset-card-body">
