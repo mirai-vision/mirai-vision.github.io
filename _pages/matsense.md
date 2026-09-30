@@ -343,8 +343,6 @@ _styles: |
       {% else %}
         <span class="matsense-download-button" aria-disabled="true">Request dataset access</span>
       {% endif %}
-      <span class="matsense-download-button" aria-disabled="true">Annotations</span>
-      <span class="matsense-download-button" aria-disabled="true">Benchmark code</span>
     </div>
   </div>
 </section>
