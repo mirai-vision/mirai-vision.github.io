@@ -330,7 +330,7 @@ _styles: |
   <div class="matsense-download-panel">
     <div>
       <h3>MatSense release package</h3>
-      <p>Request dataset access and receive the download link and citation guidance by email.</p>
+      <p>MatSense includes both the raw and processed data used in the paper. Processed files are currently available for download; owing to their large size, the raw files are available upon request.</p>
     </div>
     <div class="matsense-download-actions" aria-label="MatSense downloads">
       {% if site.matsense_download.google_form_url %}
@@ -339,9 +339,9 @@ _styles: |
           href="{{ site.matsense_download.google_form_url | escape }}"
           target="_blank"
           rel="noopener noreferrer"
-        >Request dataset access</a>
+        >Download dataset</a>
       {% else %}
-        <span class="matsense-download-button" aria-disabled="true">Request dataset access</span>
+        <span class="matsense-download-button" aria-disabled="true">Download dataset</span>
       {% endif %}
     </div>
   </div>
