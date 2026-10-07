@@ -263,8 +263,8 @@ _styles: |
       <span class="matsense-fact-value">RGB, NIR, Polar, Thermal</span>
     </div>
     <div class="matsense-fact">
-      <span class="matsense-fact-label">Status</span>
-      <span class="matsense-fact-value">Access by request</span>
+      <span class="matsense-fact-label">Access</span>
+      <span class="matsense-fact-value">Fill out the form to receive the download link by email.</span>
     </div>
   </aside>
 </div>
