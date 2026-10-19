@@ -1,15 +1,18 @@
-# MatSense Google Form Setup
+# Dataset Google Form Setup
 
-This Google Apps Script creates a public MatSense access-request form, a private Google Sheet for responses, and an installable trigger that emails the Dropbox link after each response. The Dropbox URL is stored only in private Script Properties, never in the form, website, or this repository.
+Each Apps Script file creates a public dataset access form, a private Google Sheet for responses, and an installable trigger that emails the Dropbox link after each response. The Dropbox URL is stored only in private Script Properties, never in the form, website, or this repository.
+
+- `matsense-access.gs` creates the MatSense workflow.
+- `mat2seg-access.gs` creates the Mat2Seg workflow.
 
 ## One-Time Setup
 
 1. Go to [script.new](https://script.new) while signed in to the Google account that should own the form and Sheet.
-2. Replace the starter code with `matsense-access.gs` and save the project.
-3. Run `setupMatSenseAccessForm` once and approve the requested permissions. The execution log contains the public form URL, editor URL, and private response Sheet URL.
-4. In the Apps Script project, open **Project Settings** and add a Script Property named `DATASET_URL`. Paste the Dropbox URL there. Do not put it in the script source.
-5. Optionally add a `CITATION_INSTRUCTIONS` Script Property to customize the citation note in the email.
-6. Copy the public form URL into `_config.yml` under `matsense_download.google_form_url`, then publish the site.
+2. Add the corresponding `.gs` file to the lab's Apps Script project and save it. The two scripts use distinct function and property names, so they can safely share one authorized project.
+3. Run its setup function once and approve the requested permissions. The execution log contains the public form URL, editor URL, and private response Sheet URL.
+4. In the Apps Script project, open **Project Settings** and add the dataset's private URL property: `DATASET_URL` for MatSense or `MAT2SEG_DATASET_URL` for Mat2Seg. Paste the Dropbox URL there. Do not put it in the script source.
+5. Optionally add `CITATION_INSTRUCTIONS` for MatSense or `MAT2SEG_CITATION_INSTRUCTIONS` for Mat2Seg to customize the citation note in the email.
+6. Copy the public form URL into `_config.yml` under the matching dataset key, then publish the site.
 
 ## Data Access
 
