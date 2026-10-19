@@ -167,7 +167,7 @@ _styles: |
     color: var(--global-text-color-light);
   }
 
-  .mat2seg-release-status {
+  .mat2seg-download-button {
     display: inline-flex;
     align-items: center;
     min-height: 2.55rem;
@@ -177,7 +177,18 @@ _styles: |
     color: var(--global-text-color);
     background: var(--global-card-bg-color);
     font-size: 0.88rem;
+    text-decoration: none !important;
     white-space: nowrap;
+  }
+
+  .mat2seg-download-button:hover,
+  .mat2seg-download-button:focus {
+    color: var(--global-text-color);
+    text-decoration: none !important;
+  }
+
+  .mat2seg-download-button[aria-disabled="true"] {
+    cursor: default;
   }
 
   .mat2seg-citation {
@@ -305,9 +316,20 @@ _styles: |
   <div class="mat2seg-release-panel">
     <div>
       <h3>Mat2Seg release package</h3>
-      <p>Dataset files, annotations, and benchmark materials will be announced here.</p>
+      <p>Access the Mat2Seg dataset, annotations, and benchmark materials.</p>
     </div>
-    <span class="mat2seg-release-status">Release in preparation</span>
+    <div aria-label="Mat2Seg downloads">
+      {% if site.mat2seg_download.google_form_url %}
+        <a
+          class="mat2seg-download-button"
+          href="{{ site.mat2seg_download.google_form_url | escape }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Download dataset</a>
+      {% else %}
+        <span class="mat2seg-download-button" aria-disabled="true">Download dataset</span>
+      {% endif %}
+    </div>
   </div>
 </section>
 
