@@ -27,6 +27,11 @@ back_to_top: true # set to false to disable the back to top button
 matsense_download:
   google_form_url: https://docs.google.com/forms/d/e/1FAIpQLSdJma2dUBMyyBAR5YBIKpvJvy-3cS9T0Qz1SHFIolj-zK-Ung/viewform
 
+# Public setting for the Mat2Seg access-request form. The dataset URL belongs
+# only in private Google Apps Script Properties; do not add it here.
+mat2seg_download:
+  google_form_url: https://docs.google.com/forms/d/e/1FAIpQLSd5zvPwpmTkoYTxjp2B0YYjxufMqpRXMQNs2sv-C-gqhgSBTw/viewform
+
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
