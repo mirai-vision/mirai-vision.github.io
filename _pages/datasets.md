@@ -169,6 +169,19 @@ _styles: |
         </div>
       </article>
     </a>
+    <article class="dataset-card">
+      <img
+        class="dataset-card-image"
+        src="{{ '/assets/img/datasets/mat2seg-card-v1.png' | relative_url }}"
+        alt="RGB and NIR views of material samples for the Mat2Seg material segmentation dataset"
+      >
+      <div class="dataset-card-body">
+        <h3 class="dataset-card-title">Mat2Seg Dataset</h3>
+        <p class="dataset-card-text">
+          A multimodal dataset containing RGB and NIR for Material Segmentation.
+        </p>
+      </div>
+    </article>
   </div>
 </section>
 
